@@ -3,9 +3,9 @@ import mysql.connector
 
 # Creating connection to MySQL 
 dataBase = mysql.connector.connect(
-host ="localhost",
-user ="root",
-password ="MySQL@123"
+host ="your_host",
+user ="your_username",
+password ="your_password"
 )
 
 
